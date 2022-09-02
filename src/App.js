@@ -1,9 +1,14 @@
 import './App.css';
 import Navbar from './components/header/Navbar';
+import Events from "./components/events/Events"
 
 function App() {
   return (
-      <p>Grocery Store</p>
+    <div>
+       <p>Grocery Store</p>
+      <Events />
+    </div>
+     
   );
 }
 
