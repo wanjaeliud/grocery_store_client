@@ -3,7 +3,7 @@ import Navbar from './components/header/Navbar';
 
 function App() {
   return (
-      <Navbar />
+      <p>Grocery Store</p>
   );
 }
 
