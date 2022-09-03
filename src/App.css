@@ -1,18 +1,23 @@
 .event_header{
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
 
+}
+img{
+    width: 250px;
+    object-fit: contain;
+    border-radius: 10px;
 }
 
 .event{
     width: 300px;
-    border: 1px solid green;
+    background-color: rgb(18, 43, 18);
     padding: 20px;
+    color: white;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.event:hover{
-    
-}
+
 .event-time{
     display: flex;
     text-align: center;
