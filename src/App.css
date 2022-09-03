@@ -1,9 +1,22 @@
 .event-section{
-    background-color: bisque;
+    background-color: rgb(192, 186, 178);
 
 }
-
-
+button{
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: rgb(18, 43, 18);
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 8px;
+    margin: 10px;
+}
+button:hover{
+    color: white;
+    cursor: pointer;
+    background-color:green;
+}
 
 .event_header{
     /* background-color: aqua; */
@@ -19,9 +32,10 @@
 
 }
 img{
-    width: 250px;
+    width: 280px;
     object-fit: contain;
     border-radius: 10px;
+    text-align: center;
 }
 
 .event{
