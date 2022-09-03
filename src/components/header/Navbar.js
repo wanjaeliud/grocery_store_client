@@ -29,6 +29,9 @@ function Navbar() {
                 <li className="nav-item">
                   <a className="nav-link" href="#">Blogs</a>
                 </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">About Us</a>
+                </li>
               </ul>
               <div className="buttons">
                 <a href="" className="btn btn-outline-dark">
