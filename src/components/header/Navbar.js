@@ -3,7 +3,7 @@ import React from 'react';
 function Navbar() {
   return (
       <div>
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light  py-3">
           <div className="container">
             <a className="navbar-brand fw-bold fs-4" href="#">GROCERY STORE</a>
             <button className="navbar-toggler" type="button"
@@ -30,13 +30,14 @@ function Navbar() {
                   <a className="nav-link" href="#">Blogs</a>
                 </li>
               </ul>
-              <form className="d-flex" role="search">
-                <input className="form-control me-2" type="search"
-                       placeholder="Search" aria-label="Search"/>
-                  <button className="btn btn-outline-success"
-                          type="submit">Search
-                  </button>
-              </form>
+              <div className="buttons">
+                <a href="" className="btn btn-outline-dark">
+                  <i className="fa fa-sign-in me-1"></i> Login</a>
+                <a href="" className="btn btn-outline-dark ms-2">
+                  <i className="fa fa-user-plus me-1"></i> Register</a>
+                <a href="" className="btn btn-outline-dark ms-2">
+                  <i className="fa fa-shopping-cart me-1"></i> Cart (0)</a>
+              </div>
             </div>
           </div>
         </nav>
