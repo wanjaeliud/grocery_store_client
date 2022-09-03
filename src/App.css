@@ -1,0 +1,8 @@
+/* Navbar */
+.navbar {
+    background-color: limegreen !important;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+}
