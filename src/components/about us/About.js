@@ -1,11 +1,2 @@
-import React from 'react'
-
-const About = () => {
-  return (
-    <div>
-    <h1>HELLO</h1>
-    </div>
-  )
-}
-
-export default About
+import react from "react";
+import { Container,Row, Col } from "reactstrap";
