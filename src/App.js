@@ -1,9 +1,14 @@
 import './App.css';
-import Navbar from './components/header/Navbar';
+// import Navbar from './components/header/Navbar';
+import Products from './components/products/Products';
 
 function App() {
   return (
-      <p>Grocery Store</p>
+    <div>
+    <p>Grocery Store</p>
+    <Products />
+    </div>
+     
   );
 }
 

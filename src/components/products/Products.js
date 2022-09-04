@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Products = () => {
+const ProductElements = () => {
   return (
     <div>
-    <h1>Pushing to person</h1>
+    <h1>ProductElements</h1>
+    
     </div>
   )
 }
 
-export default Products
+export default ProductElements
