@@ -1,12 +1,12 @@
 import './App.css';
-// import Navbar from './components/header/Navbar';
+import { productData } from './components/products/data';
+import Navbar from './components/header/Navbar';
 import Products from './components/products/Products';
 
 function App() {
   return (
     <div>
-    <p>Grocery Store</p>
-    <Products />
+    <Products heading= "Fresh and healthy produce from our trusted farmers" data={productData}/>
     </div>
      
   );
