@@ -20,7 +20,7 @@ const OUR_MEMBERS = [
       },
     
       {
-        name: "OLOVIA ADONGO",
+        name: "OLIVIA ADONGO",
         experience: "5 years of experience",
         fbUrl: "#",
         instUrl: "#",
