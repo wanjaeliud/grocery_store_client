@@ -6,3 +6,46 @@
 .navbar-nav a {
     font-size: 18px;
 }
+
+.about-section{
+    background-color: rgb(192, 186, 178);
+
+}
+
+
+.about_header{
+    /* background-color: aqua; */
+    text-align: center;
+    height: 200px;
+    color: white;
+    display: flex;
+    border-radius: 12px;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 43, 18);
+
+}
+img{
+    width: 280px;
+    object-fit: contain;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about{
+    width: 300px;
+    background-color: rgb(18, 43, 18);
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+}
+
+
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
