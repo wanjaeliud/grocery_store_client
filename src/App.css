@@ -1,3 +1,4 @@
+
 .event-section{
     background-color: rgb(192, 186, 178);
 
@@ -58,3 +59,14 @@ img{
     flex-wrap: wrap;
     padding: 30px;
 }
+
+/* Navbar */
+ .navbar {
+    background-color: limegreen !important;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
