@@ -10,7 +10,7 @@ import{
     ProductDesc,
     ProductPrice,
     ProductButton 
-} from './Products';
+} from './ProductsStyler';
 
 const Products = ({heading,data}) => {
 const [products, setProducts]= useState([])
