@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const ProductsContainer  = styled.div`
 width: 100vw;
 min-height: 100vh;
-padding: 4rem calc((100vw - 1300px)/2);
-background: #150f0f;
+padding: 1rem calc((100vw - 1300px)/2);
+background: #008000;
 color: #fff;
 margin: 0px;
 `
@@ -21,9 +21,9 @@ width: 300px;
 `
 export const ProductImg = styled.img`
 height: 300px;
-min-width: 300px;
+min-width: 200px;
 max-width: 100%;
-box-shadow: 8px 8px white;
+box-shadow: 8px 8px peru;
 `
 export const ProductsHeading = styled.h1`
 font-size: clamp(2rem, 2.5vw, 3rem);
@@ -50,15 +50,17 @@ height: 100px;
 export const ProductPrice= styled.p`
 margin-bottom: 5px;
 font-size: 2rem;
+margin-top: 6px;
 `
 export const ProductButton = styled.button`
 font-size: 1rem;
 padding: 1rem 4rem;
 border: none;
-border-radius: 0.5rem;
-background: #e31837;
+border-radius: 5rem;
+background: #CD853F;
 color: #fff;
 transition: 0.2 ease-out;
+margin-bottom: 1rem;
 
 
 &:hover{

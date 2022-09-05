@@ -1,13 +1,13 @@
 import './App.css';
 import { productData } from './components/products/data';
 import Navbar from './components/header/Navbar';
-import Products from './components/products/Product';
+import Products from './components/products/Products';
 
 
 function App() {
   return (
     <div>
-    <Products heading= "Favourite product" data={productData}/>
+    <Products heading= "Our Products" data={productData}/>
     </div>
      
   );
