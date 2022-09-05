@@ -17,6 +17,9 @@ export default function Post() {
                     <span className="postCat">Organic</span>
                     <span className="postCat">LifeStyle</span>
                   </div>
+                  <div className="date">
+                      <h6><em> 37 minutes ago | Miriam Anyango</em></h6>
+                  </div>
                   <div>
                       <h3>3 Benefits of Grocery Delivery in Today's Life</h3>
                       <p className="description">Grocery delivery sure can take the headache out of filling your fridge, 
@@ -64,6 +67,9 @@ export default function Post() {
                   <span className="postCat">Market</span>
                   <span className="postCat">News</span>
                   </div>
+                  <div className="date">
+                      <h6><em>2 hours ago | Miriam Anyango</em></h6>
+                  </div>
                   <div>
                       <h3>5 Easy Ways To Preserve Kale For Long-Term Storage</h3>
                       <p className="description">Kale is one of the first garden veggies to produce a crop in early spring. 
@@ -88,6 +94,9 @@ export default function Post() {
                   <div className="postCat">
                   <span className="postCat">Market</span>
                   <span className="postCat">LifeStyle</span>
+                  </div>
+                  <div className="date">
+                      <h6><em>3 hours ago | Miriam Anyango</em></h6>
                   </div>
                   <div>
                       <h3>Transport as an Important Factor for a Farmer’s Success</h3>
@@ -114,6 +123,9 @@ export default function Post() {
                   <span className="postCat">Innovate</span>
                   <span className="postCat">News</span>
                   </div>
+                  <div className="date">
+                      <h6><em> 5 hours ago | Miriam Anyango</em></h6>
+                  </div>
                   <div>
                       <h3>Entomology & Nematology News</h3>
                       <p className="description">Thirteen UC Davis scientists or former affiliates are among authors 
@@ -138,6 +150,9 @@ export default function Post() {
                   <div className="postCat">
                   <span className="postCat">Tech</span>
                   <span className="postCat">Innovate</span>
+                  </div>
+                  <div className="date">
+                      <h6><em> 1 day ago | Miriam Anyango</em></h6>
                   </div>
                   <div>
                       <h3>Weeds—When Not To Worry</h3>
@@ -192,15 +207,14 @@ export default function Post() {
                   <span className="postCat">Tech</span>
                   <span className="postCat">Innovate</span>
                   </div>
+                  <div className="date">
+                      <h6><em>3rd September 2022 | Miriam Anyango</em></h6>
+                  </div>
                   <div>
-                      <h3>Title</h3>
-                      <p className="description">Kale is one of the first garden veggies to produce a crop in early spring. 
-                      Depending on the variety and your growing conditions, it can keep growing all season long. 
-                      And, after other crops have petered out, that reliable kale patch can hang on well into late fall. 
-                      Kale grows so prolifically, in fact, that you might not be able to eat all that you produce, 
-                      leaving you to wonder how to preserve this produce superfood.
-                      You don’t have to let it go to waste. Aside from giving your extras to friends, 
-                      neighbors or your local soup kitchen, you can try these long-term storage techniques.</p>
+                      <h3>AI and Tech in Agriculture</h3>
+                      <p className="description">Over the past few years, robotics has witnessed a tremendous transformation and is invading other industries. 
+                        And among all, agriculture is one such sector that is making the best out of robotics — not only in terms of problems with labour shortages 
+                        in agriculture but also in terms of reducing food waste.</p>
                   </div>
               </div>
           </div>

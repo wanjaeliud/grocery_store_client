@@ -22,11 +22,10 @@ function Bar(){
             />
             <br/>
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br/>
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br/>
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            It has survived not only five centuries, but also the leap into electronic typesetting, <br/>
-            remaining essentially unchanged.
+            At Smar Farmers, we believe there is a better way to do marketing. 
+            A more valuable, less invasive way where customers are earned
+            rather than bought. We're obsessively passionate about it,
+            and our mission is to help people acheive it.
             </p>
         </div>
         
