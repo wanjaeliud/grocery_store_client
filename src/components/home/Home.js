@@ -1,7 +1,7 @@
 import React from 'react';
 import Product from '../product/product';
 
-function Home(props) {
+function Home() {
   return (
       <div className="banner">
         <div className="card bg-dark text-white border-0">
