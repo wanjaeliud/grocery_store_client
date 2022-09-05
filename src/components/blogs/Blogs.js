@@ -1,10 +1,19 @@
-import React from "react";
 
-function Blogs(){
-    return (
-        <div>
-            <h2>Blogs & Reviews</h2>
-        </div>
-    );
+import React from "react";
+import './blogs.css';
+import TopBar from './Topbar/TopBar';
+import Bar from './Bar/Bar';
+import Posts from './Posts/Posts';
+
+
+function Blogs() {
+  return (
+    
+    <>
+      <TopBar />
+      <Posts />
+      <Bar />
+    </>
+  );
 }
 export default Blogs;

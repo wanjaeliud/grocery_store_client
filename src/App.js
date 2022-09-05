@@ -2,6 +2,8 @@ import './App.css';
 import Navbar from './components/header/Navbar';
 import Events from "./components/events/Events"
 import Home from "./components/home/Home"
+import Blogs from './components/blogs/Blogs';
+// import Home from './components/home/Home';
 
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
         <Navbar/>
         <Home/>
         <Events />
+        <Blogs />
       </div>
   );
 }
