@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-import React from 'react';
 
-function Products() {
-  return (
-      <div>
-        Test
-      </div>
-  );
-}
-
-export default Products;
-=======
 import styled from "styled-components";
 
 export const ProductsContainer  = styled.div`
@@ -80,4 +68,4 @@ transition: 0.2 ease-out;
 cursor: pointer;
 color: #000
 `
->>>>>>> victor
+
