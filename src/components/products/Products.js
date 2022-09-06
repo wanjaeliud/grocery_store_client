@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import{
     ProductsContainer,
+    ProductCart,
     ProductWrapper,
     ProductsHeading,
     ProductTitle,
@@ -12,8 +13,17 @@ import{
     ProductButton 
 } from './ProductsStyler';
 
-const Products = ({heading,data}) => {
+const Products = ({heading,data, setShow}) => {
 const [products, setProducts]= useState([])
+const  [cart, setCart]= useState([])
+
+const handleClick  =(products) => {
+console.log("Clicked")
+setCart([...cart, products])
+cart.push(products)
+};
+
+
 
 useEffect(() => {
   fetch ('http://127.0.0.1:9292/products')
@@ -29,6 +39,13 @@ useEffect(() => {
     <div>
     <ProductsContainer>
     <ProductsHeading>{heading}</ProductsHeading>
+    <ProductCart onClick={setShow}>
+    <span>
+    <i class="fas fa-cart-plus"></i>
+    </span>
+    <span>0</span>
+
+    </ProductCart>
     <ProductWrapper>
 
 
@@ -41,7 +58,7 @@ useEffect(() => {
             <ProductTitle> {product.name}</ProductTitle>
             <ProductDesc>{product.description}</ProductDesc>
             <ProductPrice>Ksh {product.price}</ProductPrice>
-            <ProductButton>Add to Cart</ProductButton>
+            <ProductButton onClick={()=>handleClick(products)}>Add to Cart</ProductButton>
             </ProductInfo>
             </ProductCard>
         

@@ -8,6 +8,12 @@ background: #008000;
 color: #fff;
 margin: 0px;
 `
+export const ProductCart = styled.div`
+font-size: 2rem;
+font-family: cursive;
+text-align: center;
+cursor: pointer;
+`
 export const ProductWrapper= styled.div`
 display: flex;
 flex-wrap: wrap;
