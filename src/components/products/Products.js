@@ -41,14 +41,8 @@ useEffect(() => {
   return (
     <div>
     <ProductsContainer>
-    <ProductsHeading>{heading}</ProductsHeading>
-    <ProductCart onClick={setShow}>
-    <span>
-    <i class="fas fa-cart-plus"></i>
-    </span>
-    <span>0</span>
-
-    </ProductCart>
+    <ProductsHeading>Our Products</ProductsHeading>
+  
     <ProductWrapper>
 
 

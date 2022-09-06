@@ -7,7 +7,7 @@ button{
     outline: none;
     border: none;
     font-size: 1rem;
-    color: rgb(18, 43, 18);
+    color: limegreen;
     padding: 10px;
     font-weight: 900;
     border-radius: 8px;
@@ -16,20 +16,20 @@ button{
 button:hover{
     color: white;
     cursor: pointer;
-    background-color:green;
+    background-color:limegreen;
 }
 
 .event_header{
     /* background-color: aqua; */
     text-align: center;
-    height: 200px;
+    height: 100px;
     color: white;
     display: flex;
     border-radius: 12px;
     font-size: 3rem;
     align-items: center;
     justify-content: center;
-    background-color: rgb(18, 43, 18);
+    /* background-color: limegreen); */
 
 }
 img{
@@ -41,7 +41,7 @@ img{
 
 .event{
     width: 300px;
-    background-color: rgb(18, 43, 18);
+    background-color: limegreen;
     padding: 20px;
     color: white;
     border-radius: 20px;

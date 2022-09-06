@@ -61,7 +61,7 @@ const Events = () => {
       <img src={carrot} alt= "carrot"/>
           <h1>Dec <span>9<sup>th</sup></span></h1>
           <h3> Carrot For Vision</h3>
-          <h3>Venue : Nyeri Farmers Sacco</h3>
+          <h3>Venue : Nyeri Farmers Sacco</h3>  
           <div className='event-time'>
             <h2>Entry: <span>Ksh 200</span></h2>
 

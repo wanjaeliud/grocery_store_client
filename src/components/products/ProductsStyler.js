@@ -4,8 +4,8 @@ export const ProductsContainer  = styled.div`
 width: 100vw;
 min-height: 100vh;
 padding: 1rem calc((100vw - 1300px)/2);
-background: #008000;
-color: #fff;
+background: cream;
+color: black;
 margin: 0px;
 `
 export const ProductCart = styled.div`
@@ -29,7 +29,7 @@ export const ProductImg = styled.img`
 height: 300px;
 min-width: 200px;
 max-width: 100%;
-box-shadow: 8px 8px peru;
+box-shadow: 8px 8px limegreen;
 `
 export const ProductsHeading = styled.h1`
 font-size: clamp(2rem, 2.5vw, 3rem);
@@ -63,7 +63,7 @@ font-size: 1rem;
 padding: 1rem 4rem;
 border: none;
 border-radius: 5rem;
-background: #CD853F;
+background: limegreen;
 color: #fff;
 transition: 0.2 ease-out;
 margin-bottom: 1rem;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Product from '../product/product';
+import Products from '../products/Products';
 
 function Home() {
   return (
@@ -17,7 +18,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <Product/>
+        <Products/>
       </div>
   );
 }
