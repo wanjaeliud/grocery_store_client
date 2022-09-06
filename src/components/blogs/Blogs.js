@@ -1,15 +1,4 @@
-<<<<<<< HEAD
-import React from 'react';
 
-function Blogs() {
-  return (
-      <div>
-        Blogs
-      </div>
-  );
-}
-
-=======
 
 import React from "react";
 import './blogs.css';
@@ -28,5 +17,4 @@ function Blogs() {
     </>
   );
 }
->>>>>>> victor
 export default Blogs;
