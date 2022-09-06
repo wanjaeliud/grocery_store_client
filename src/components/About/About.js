@@ -1,4 +1,3 @@
-import React from "react";
 import ava1 from "../../image/ava1";
 import ava2 from "../../image/ava2";
 import ava3 from "../../image/ava3";

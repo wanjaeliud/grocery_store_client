@@ -8,6 +8,9 @@ import Product from './components/product/product';
 import Blogs from './components/blogs/Blogs';
 import About from './components/About/About';
 
+// import { productData } from "./components/about us/data";
+
+
 
 function App() {
   return (

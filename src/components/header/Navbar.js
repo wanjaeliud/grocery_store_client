@@ -30,6 +30,9 @@ function Navbar() {
                 <li className="nav-item">
                   <NavLink className="nav-link active" to="/blogs">Blogs</NavLink>
                 </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">About Us</a>
+                </li>
               </ul>
               <div className="buttons">
                 <NavLink to="/login" className="btn btn-outline-dark">
