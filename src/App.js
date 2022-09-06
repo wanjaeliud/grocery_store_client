@@ -7,21 +7,26 @@ import {Switch, Route} from 'react-router-dom';
 import Product from './components/product/product';
 import Blogs from './components/blogs/Blogs';
 import Events from "./components/events/Events"
+import { productData } from './components/products/data';
+import Products from './components/products/Products';
+import { useState } from 'react';
 
 
 function App() {
+  const [show,setShow]= useState(true)
   return (
       <>
         <Navbar/>
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route exact path="/product" component={Product}/>
+          <Route exact path="/products" component={Products}/>
           <Route exact path="/events" component={Events}/>
           <Route exact path="/blogs" component={Blogs}/>
           <Home/>
         </Switch>
       </>
   )
+
 }
 
 
